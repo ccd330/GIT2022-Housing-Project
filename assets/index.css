@@ -2,6 +2,11 @@ body {
     font-family: "Light";
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #9DE1E4;
+}
 
 .navBar {
     float: right;
@@ -45,10 +50,8 @@ body {
 }
 
 .header-logo {
-    position: absolute;
     padding-left: 50px;
     padding-top: 25px;
-    float: left;
 }
 
 .navContainer {
@@ -74,8 +77,8 @@ body {
     border-color: black;
     border-radius: 10px;
     font-size: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 7px;
     padding-top: 7px;
     margin-top: 25px;
@@ -84,6 +87,7 @@ body {
 .topCTA {
     font-size: 70px;
     line-height: 50px;
+    padding-top: 55px;
 }
 
 .ctaText {

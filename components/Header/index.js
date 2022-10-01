@@ -5,9 +5,12 @@ import '../../assets/index.css'
 function Header () {
     return (
         <>
-        <div className="navigationContainer">
-            <img src={logo} alt="Banyan Logo" className="header-logo" />
-            <div>
+        <nav>
+            <div className="row">
+            <div className="column">
+                <img src={logo} alt="Banyan Logo" className="header-logo" />
+            </div>
+            <div className="row">
                 <ul className="navBar">
                     <li className="home-link"><a>Home</a></li>
                     <li className="indApp-link"><a>Individual Application</a></li>
@@ -16,6 +19,7 @@ function Header () {
                 </ul>
             </div>
         </div>
+        </nav>
         </>
     )
 }
