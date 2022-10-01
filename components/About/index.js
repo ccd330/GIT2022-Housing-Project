@@ -1,5 +1,7 @@
 import React from 'react'
-import building from '../../assets/right-image-buildingA.png'
+import beigebuilding from '../../assets/right-image-buildingA.png'
+import yellowchair from '../../assets/yellow-chair.png'
+import bluehouse from '../../assets/blue-house.png'
 
 function About () {
     return (
@@ -16,16 +18,20 @@ function About () {
                     <button className="apply-btn">Apply Now</button>
                 </div>
                 <div className="column">
-                    <img src={building} alt="beige-building" className="beige-building" />
+                    <img src={beigebuilding} alt="beige-building" className="beige-building" />
                 </div>
             </div>
         </div>
         <div className="mainBody">
-            <h2>Testimonial</h2>
-            <h2>Partnerships</h2>
-            <h2>Refer A Friend</h2>
-            <h2>Q&A</h2>
-        </div>
+            <div className="row">
+                <img src={yellowchair} alt="yellow-chair" className='yellow-chair' />
+                <img src={bluehouse} alt="blue-house" className='blue-house' />
+            </div>
+                <h2>Testimonial</h2>
+                <h2>Partnerships</h2>
+                <h2>Refer A Friend</h2>
+                <h2>Q&A</h2>
+            </div>
         </>
     );
 }
