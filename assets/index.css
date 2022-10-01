@@ -109,10 +109,21 @@ nav {
 
 .blue-house {
     padding-left: 20px;
+    height: 350px;
+}
+
+.yellow-chair {
+    height: 350px;
 }
 
 .mainBody {
     padding-left: 50px;
-    background-color: #EEFFFE;
-    padding-top: 50px;
+}
+
+.boxes {
+    background-color: #EEFFFE ;
+}
+
+.partnerships {
+    background-color: white;
 }
