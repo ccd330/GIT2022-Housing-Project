@@ -1,3 +1,41 @@
 body {
     font-family: "Light";
 }
+
+.navBar {
+    float: right;
+}
+
+.home-link {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.indApp-link {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.propApp-link {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.signIn-link {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.header-logo {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+}
+
+.navContainer {
+    margin: 0 auto;
+}

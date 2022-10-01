@@ -1,17 +1,18 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import '../../assets/index.css'
 
 function Header () {
     return (
         <>
         <div>
-            <img src={logo} alt="Banyan Logo" />
+            <img src={logo} alt="Banyan Logo" className="header-logo" />
             <div>
                 <ul className="navBar">
-                    <li className="nav-item">Home</li>
-                    <li>Individual Application</li>
-                    <li>Property Application</li>
-                    <li>Sign In</li>
+                    <li className="home-link">Home</li>
+                    <li className="indApp-link">Individual Application</li>
+                    <li className="propApp-link">Property Application</li>
+                    <li className="signIn-link">Sign In</li>
                 </ul>
             </div>
         </div>
