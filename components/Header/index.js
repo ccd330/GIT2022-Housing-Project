@@ -5,14 +5,14 @@ import '../../assets/index.css'
 function Header () {
     return (
         <>
-        <div>
+        <div className="navigationContainer">
             <img src={logo} alt="Banyan Logo" className="header-logo" />
             <div>
                 <ul className="navBar">
-                    <li className="home-link">Home</li>
-                    <li className="indApp-link">Individual Application</li>
-                    <li className="propApp-link">Property Application</li>
-                    <li className="signIn-link">Sign In</li>
+                    <li className="home-link"><a>Home</a></li>
+                    <li className="indApp-link"><a>Individual Application</a></li>
+                    <li className="propApp-link"><a>Property Application</a></li>
+                    <li className="signIn-link"><a>Sign In</a></li>
                 </ul>
             </div>
         </div>
