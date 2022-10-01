@@ -78,21 +78,21 @@ body {
     padding-right: 45px;
     padding-bottom: 7px;
     padding-top: 7px;
+    margin-top: 25px;
 }
 
 .topCTA {
     font-size: 70px;
-    line-height: 10px;
-}
-
-.bottomCTA {
-    color: white;
-    font-size: 70px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .ctaText {
     font-weight: bolder;
+    font-size: 20px;
+}
+
+.whiteText {
+    color: white;
 }
 
 .row {
@@ -101,6 +101,10 @@ body {
 
 .column {
     flex: 33%;
+}
+
+.blue-house {
+    padding-left: 20px;
 }
 
 .mainBody {

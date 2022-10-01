@@ -9,11 +9,8 @@ function About () {
         <div className="ctaSection">
             <div className="row">
                 <div className="column">
-                    <h1 className="topCTA">In search of</h1>
-                    <h1 className="bottomCTA">Homefinding</h1>
-                    <p className="ctaText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque vulputate condimentum purus, eu dapibus enim viverra quis. 
-                    Integer aliquet varius velit vitae mollis. 
+                    <h1 className="topCTA">Welcome <span className="whiteText">home.</span></h1>
+                    <p className="ctaText">Helping you find a home - so that you can focus on you. 
                     </p>
                     <button className="apply-btn">Apply Now</button>
                 </div>
