@@ -23,27 +23,47 @@ function About () {
                 </div>
             </div>
         </div>
-        <div className="mainBody">
             <div className="boxes">
                 <div className="row">
-                <img src={yellowchair} alt="yellow-chair" className='yellow-chair' />
-                <img src={bluehouse} alt="blue-house" className='blue-house' />
-            </div>
+                    <img src={yellowchair} alt="yellow-chair" className='yellow-chair' />
+                    <img src={bluehouse} alt="blue-house" className='blue-house' />
+                </div>
             </div>
             <div className="partnerships">
                 <h1>Partnerships</h1>
                 <p>Lorem ipsum.</p>
                 <div className='row'>
-                    <img src={ryan} alt="ryan-king-team-logo"/>
-                    <img src={brodsky} alt="brodsky-logo"/>
-                    <img src={hickman} alt="hickman-logo"/>
-                    <img src={green} alt="hickman-logo"/>
+                    <img src={ryan} alt="ryan-king-team-logo" className="column" style={{ width: 75, height: 125 }}/>
+                    <img src={brodsky} alt="brodsky-logo" className="column" style={{ width: 100, height: 100 }}/>
+                    <img src={hickman} alt="hickman-logo" className="column" style={{ width: 125, height: 150 }}/>
+                    <img src={green} alt="hickman-logo" className="column" style={{ width: 125, height: 150 }}/>
+                </div>
+            </div>
+            <div className="qa">
+                <h1>Q&A</h1>
+                <div className="row">
+                    <h2 className='column'>Question Goes Here</h2>
+                    <h2 className='column'>Question Goes Here</h2>
+                </div>
+                <div className='row'>
+                    <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div className="row">
+                    <h2 className='column'>Question Goes Here</h2>
+                    <h2 className='column'>Question Goes Here</h2>
+                </div>
+                <div className='row'>
+                    <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>
                 <h2>Testimonial</h2>
                 <h2>Refer A Friend</h2>
-                <h2>Q&A</h2>
-            </div>
         </>
     );
 }

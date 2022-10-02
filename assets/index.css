@@ -116,14 +116,27 @@ nav {
     height: 350px;
 }
 
-.mainBody {
+.boxes {
     padding-left: 50px;
 }
 
 .boxes {
     background-color: #EEFFFE ;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .partnerships {
     background-color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
+
+.qa {
+    font-weight: bolder;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #9DE1E4;
+}
+
