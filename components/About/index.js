@@ -1,11 +1,13 @@
 import React from 'react'
 import beigebuilding from '../../assets/right-image-buildingA.png'
-import yellowchair from '../../assets/yellow-chair.png'
+import greenbox from '../../assets/green-box.png'
+import whitechair from '../../assets/white-chair.png'
 import bluehouse from '../../assets/blue-house.png'
 import ryan from '../../assets/logo-ryan.png'
 import brodsky from '../../assets/logo-brodsky.png'
 import hickman from '../../assets/logo-HRgroup.png'
 import green from '../../assets/logo-GP.png'
+import present from '../../assets/present-box.png'
 
 function About () {
     return (
@@ -25,7 +27,8 @@ function About () {
         </div>
             <div className="boxes">
                 <div className="row">
-                    <img src={yellowchair} alt="yellow-chair" className='yellow-chair' />
+                    <img src={greenbox} alt="woman-smiling" className="green-box" />
+                    <img src={whitechair} alt="white-chair" className='white-chair' />
                     <img src={bluehouse} alt="blue-house" className='blue-house' />
                 </div>
             </div>
@@ -42,8 +45,8 @@ function About () {
             <div className="qa">
                 <h1>Q&A</h1>
                 <div className="row">
-                    <h2 className='column'>Question Goes Here</h2>
-                    <h2 className='column'>Question Goes Here</h2>
+                    <h2 className='column'>Question Goes Here?</h2>
+                    <h2 className='column'>Question Goes Here?</h2>
                 </div>
                 <div className='row'>
                     <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -52,8 +55,8 @@ function About () {
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
                 <div className="row">
-                    <h2 className='column'>Question Goes Here</h2>
-                    <h2 className='column'>Question Goes Here</h2>
+                    <h2 className='column'>Question Goes Here?</h2>
+                    <h2 className='column'>Question Goes Here?</h2>
                 </div>
                 <div className='row'>
                     <p className="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -63,9 +66,18 @@ function About () {
                 </div>
             </div>
             <div className='referral'>
-                <h1>Give $100,</h1>
-                <h1>Get $100</h1>
-                <p>When you refer a friend.</p>
+                <div className="row">
+                    <div className="column">
+                        <div className="referral-text">
+                            <h1>Give $100,</h1>
+                            <h1>Get $100</h1>
+                            <p>When you refer a friend.</p>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <img src={present} alt="present-box"  />
+                    </div>
+                </div>
             </div>
         </>
     );
