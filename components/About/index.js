@@ -62,8 +62,13 @@ function About () {
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>
+            <div className='referral'>
+                <h1>Give $100.</h1>
+                <h1>Get $100.</h1>
+                <p>When you refer a friend.</p>
+            </div>
                 <h2>Testimonial</h2>
-                <h2>Refer A Friend</h2>
+                
         </>
     );
 }
