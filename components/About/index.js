@@ -67,8 +67,6 @@ function About () {
                 <h1>Get $100.</h1>
                 <p>When you refer a friend.</p>
             </div>
-                <h2>Testimonial</h2>
-                
         </>
     );
 }
