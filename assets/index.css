@@ -130,21 +130,26 @@ nav {
 .partnerships {
     background-color: white;
     padding-left: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .qa {
     font-weight: bolder;
     padding-left: 50px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     background-color: #9DE1E4;
+    margin-bottom: -20px;
 }
 
 .referral {
     padding-left: 50px;
     font-weight: bold;
     background-color: #EEFFFE;
+    margin-bottom: -20px;
+    padding-bottom: 70px;
+    padding-top: 15px;
+    line-height: 25px;
 }
 
 .footer  {

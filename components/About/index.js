@@ -63,8 +63,8 @@ function About () {
                 </div>
             </div>
             <div className='referral'>
-                <h1>Give $100.</h1>
-                <h1>Get $100.</h1>
+                <h1>Give $100,</h1>
+                <h1>Get $100</h1>
                 <p>When you refer a friend.</p>
             </div>
         </>
